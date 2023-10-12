@@ -33,14 +33,6 @@ lexer grammar Python3Lexer;
 // All comments that start with "///" are copy-pasted from
 // The Python Language Reference
 
-tokens { INDENT, DEDENT }
-
-options {
-    superClass=Python3LexerBase;
-}
-
-// Insert here @header for C++ lexer.
-
 /*
  * lexer rules
  */

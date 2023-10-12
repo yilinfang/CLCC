@@ -1,0 +1,12 @@
+.idea/
+.gradle/
+.DS_Store
+
+src/main/generated/
+build/
+
+examples_output/
+output/
+*.csv
+log.txt
+

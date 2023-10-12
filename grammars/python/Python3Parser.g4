@@ -33,15 +33,6 @@
 
 parser grammar Python3Parser;
 
-options {
-    superClass = Python3ParserBase;
-    tokenVocab=Python3Lexer;
-}
-
-// Insert here @header for C++ parser.
-
-// All comments that start with "///" are copy-pasted from
-// The Python Language Reference
 
 single_input: NEWLINE | simple_stmts | compound_stmt NEWLINE;
 file_input: (NEWLINE | stmt)* EOF;
