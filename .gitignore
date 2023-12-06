@@ -1,0 +1,4 @@
+*.pkl
+*.json
+*.csv
+__pycache__/
